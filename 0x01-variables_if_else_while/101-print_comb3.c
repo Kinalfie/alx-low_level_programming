@@ -12,18 +12,18 @@ int main(void)
 		int b = '0';
 
 		for (b = '0'; b <= '9'; b++)
-	{
-		if (!((a == b) || (b > a)))
 		{
-			putchar(b);
-			putchar(a);
-			if (!(a == '9' && b == '8'))
+			if (!((a == b) || (b > a)))
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(b);
+				putchar(a);
+				if (!(a == '9' && b == '8'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
-	}
 	}
 	putchar('\n');
 	return (0);
