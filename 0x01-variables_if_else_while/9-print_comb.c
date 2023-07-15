@@ -13,7 +13,7 @@ int main(void)
 		if (e < 9)
 		{
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
