@@ -5,15 +5,21 @@
 */
 int main(void)
 {
-	int d;
+	char d;
+	int i;
 
-	for (d = 0; d < 10 || d < 'g'; d++)
-	{
-		if (d < 10)
-			putchar(d + '0');
-		else
+	d = 'a';
+	i = 0;
+	while
+		(i < 10) {
+			putchar(i + '0');
+			i++;
+		}
+	while
+		(d <= 'f') {
 			putchar(d);
-	}
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }
