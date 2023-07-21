@@ -7,9 +7,12 @@
 */
 int _isdigit(int c)
 {
-	for (c = 0; c <=9; c++)
+	if (c >= '0' && c <= '9')
 	{
-		printf("1\n");
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
