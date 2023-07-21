@@ -20,9 +20,6 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d", x);
-		if (x == 100)
-			continue;
-			printf(" ");
 	}
 	printf("\n");
 	return (0);
